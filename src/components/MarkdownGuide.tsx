@@ -4,7 +4,7 @@ import styled from "styled-components";
 const GuideContainer = styled.div`
   padding: 16px;
   height: 30vh;
-  width: 100%;
+  width: 97.8vw;
 `;
 
 const MarkdownGuide: React.FC = () => {
