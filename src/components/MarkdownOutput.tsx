@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import ReactMarkdown from "react-markdown";
 
@@ -13,7 +12,7 @@ interface MarkdownOutputProps {
   markdown: string;
 }
 
-const MarkdownOutput: React.FC<MarkdownOutputProps> = ({ markdown }) => {
+const MarkdownOutput = ({ markdown }: MarkdownOutputProps) => {
   return (
     <OutputContainer>
       <ReactMarkdown>{markdown}</ReactMarkdown>
